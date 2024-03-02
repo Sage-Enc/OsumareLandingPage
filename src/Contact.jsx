@@ -31,7 +31,7 @@ function Contact() {
                 <textarea name="" id="" cols="30" rows="7" required className='w-full border-2 border-gray-400 rounded-lg px-2 my-2' placeholder='Enter your message'></textarea>
               </div>
             </div>
-            <RoundedButton value="Get Started" text="text-white" btnColor="bg-blue-600" bdrColor="border-blue-600 border-2 sm:w-full sm:mt-10" customCss="text-base md:text-lg lg:text-xl xl:text-2xl mt-2 mb-5 sm:w-3/5 mx-auto" />
+            <RoundedButton value="Get Started" text="text-white" btnColor="bg-blue-600" bdrColor="border-blue-600 border-2 sm:mt-10" customCss="text-base md:text-lg lg:text-xl xl:text-2xl mt-2 mb-5 sm:w-3/5 mx-auto md:w-1/4" />
           </form>
         </div>
       </div>

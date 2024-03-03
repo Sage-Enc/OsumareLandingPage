@@ -7,22 +7,22 @@ function TestimonialCard(prop) {
     <div>
       <div
         id="card"
-        className="flex flex-col border-2 border-gray-400 rounded-lg"
+        className="flex flex-col border-2 border-gray-400 rounded-lg sm:flex-row md:h-11/12"
       >
-        <div>
+        <div className="sm:w-1/2 p-2">
           <iframe
-          className="w-full"
+          className="w-full rounded-lg h-full"
             src={prop.ReviewerVideo}
           ></iframe>
         </div>
-        <dir>
-          <div id="ReviewerDetails" className="flex items-center">
+        <dir className="sm:w-1/2" >
+          <div id="ReviewerDetails" className="flex items-center pr-2">
             <img
               src={prop.ReviewerImg}
               alt="Reviewer-Image"
               className="rounded-full w-1/6 mr-4"
             />
-            <p className="text-base font-bold mr-4">{prop.ReviewerName}</p>
+            <p className="font-bold mr-4 text-center text-base md:text-lg lg:text-2xl xl:text-3xl px-2">{prop.ReviewerName}</p>
             <FontAwesomeIcon
               icon={faQuoteRight}
               style={{ color: "#1f9eff" }}
@@ -30,7 +30,7 @@ function TestimonialCard(prop) {
             />
           </div>
           <div id="Review">
-            <p className="text-justify w-4/5">{prop.Review}</p>
+            <p className="text-justify w-4/5 text-base md:text-lg lg:text-2xl xl:text-3xl px-2">{prop.Review}</p>
           </div>
         </dir>
       </div>

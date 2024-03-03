@@ -10,7 +10,7 @@ function Conclusion() {
       <p className='text-center w-3/5 text-xs mt-3 sm:text-base lg:text-xl xl:text-3xl font-normal text-slate-600 xl:my-6'>
         Through our conversion-focused strategies, we ensure that property seekers are not just visitors, but engaged prospects ready to make their next move in the real estate market
       </p>
-      <RoundedButton value="Get Started" text="text-white" btnColor="bg-blue-600" bdrColor="border-blue-600 border-2" customCss="w-1/3 text-xs sm:text-sm md:text-base md:w-1/4 lg:text-lg xl:py-4 xl:text-2xl" />
+      <RoundedButton value="Get Started" text="text-white" btnColor="bg-blue-600" bdrColor="border-blue-600 border-2" customCss="w-1/3 text-xs sm:text-sm md:text-base md:w-1/4 lg:text-lg xl:py-4 xl:text-2xl my-5" />
     </div>
   )
 }

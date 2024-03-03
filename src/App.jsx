@@ -25,7 +25,7 @@ function App() {
         <InquiryConversion />
         <ExpertAction />
         <Conclusion />
-        {/* <Testimonial /> */}
+        <Testimonial />
         <Faq />
         <Contact />
         <Footer />

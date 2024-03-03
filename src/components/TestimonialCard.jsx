@@ -7,7 +7,7 @@ function TestimonialCard(prop) {
     <div>
       <div
         id="card"
-        className="flex flex-col border-2 border-gray-400 rounded-lg sm:flex-row md:h-11/12"
+        className="flex flex-col shadow-2xl rounded-3xl sm:flex-row md:h-11/12"
       >
         <div className="sm:w-1/2 p-2">
           <iframe

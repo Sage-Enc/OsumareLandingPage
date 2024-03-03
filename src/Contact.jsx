@@ -5,11 +5,13 @@ function Contact() {
   return (
     <div>
       <div className='mx-auto text-base text-center lg:my-40'>
-        <p className='text-lg font-bold px-1 sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl md:mb-2 lg:mb-4 xl:mb-6'>Connect with Our Digital Marketing Experts</p>
-        <p className='text-base md:text-lg lg:text-xl xl:text-2xl px-6'>Reach Out for Tailored Strategies and Results-Driven Solutions.</p>
-        <p className='text-base md:text-lg lg:text-xl xl:text-2xl px-6'>Lets Elevate Your Online Presence Together</p>
+        <div className='glowRed right-0 z-0'></div>
+        <div div className='glowBlue left-0 z-0'></div>
+        <p className='text-lg font-bold px-1 sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl md:mb-2 lg:mb-4 xl:mb-6 z-[1]'>Connect with Our Digital Marketing Experts</p>
+        <p className='text-base md:text-lg lg:text-xl xl:text-2xl px-6 z-[1]'>Reach Out for Tailored Strategies and Results-Driven Solutions.</p>
+        <p className='text-base md:text-lg lg:text-xl xl:text-2xl px-6 z-[1]'>Lets Elevate Your Online Presence Together</p>
         
-        <div className='w-11/12 border-2 border-gray-200 mx-auto rounded-lg my-5 px-10 shadow-lg text-left py-4 md:w-3/5'>
+        <div className='w-11/12 border-2 border-gray-200 mx-auto rounded-lg my-5 px-10 shadow-lg text-left py-4 md:w-3/5 z-[1]'>
           <form action="" className='flex flex-col md:justify-between text-sm md:text-base lg:text-lg xl:text-xl'>
             <div className='flex flex-col md:flex-row'>
               <div id="formLeft" className='md:w-1/2 md:px-6'>
